@@ -168,7 +168,7 @@ function updateTotalBill() {
     return;
   }
   const roomBill = parseInt($('#room-bill-hidden').val(), 10);
-  const term = parseInt($('#term').val(), 10);
+  const term = parseInt($('#term').val(), 1000);
   const headCount = parseInt($('#head-count').val(), 10);
   const totalBill = calcTotalBill(
       roomBill,
