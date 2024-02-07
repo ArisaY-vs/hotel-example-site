@@ -47,7 +47,7 @@ function genPlanHtml(plan) {
         '<li>' + t('plans.minHeadCount', plan.minHeadCount) + '</li>' +
         '<li>' + plan.room + '</li>' +
       '</ul>' +
-      '<a href="./index.html" class="btn btn-primary" target="_blank" rel="opener">' + t('plans.reserveLink') + '</a>' +
+      '<a href="./index.html" class="btn btn-primary" target="_blank" rel="opener">' + '</a>' +
     '</div>' +
   '</div>' +
 '</div>';
