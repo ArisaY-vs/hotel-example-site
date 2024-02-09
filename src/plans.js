@@ -32,6 +32,7 @@ $(function() {
  */
 function genPlanHtml(plan) {
   let header = '';
+  var id = plan.id + 10;
   if (plan.only === 'premium') {
     header = '<div class="card-header">' + t('plans.premiumOnly') + '</div>';
   } else if (plan.only === 'member') {
@@ -47,7 +48,7 @@ function genPlanHtml(plan) {
         '<li>' + t('plans.minHeadCount', plan.minHeadCount) + '</li>' +
         '<li>' + plan.room + '</li>' +
       '</ul>' +
-      ' <a href="./reserve.html?plan-id=' + plan.id+10 + '" class="btn btn-primary" target="_blank" rel="opener">' + t('plans.reserveLink') + '</a>' +
+      ' <a href="./reserve.html?plan-id=' + id + '" class="btn btn-primary" target="_blank" rel="opener">' + t('plans.reserveLink') + '</a>' +
     '</div>' +
   '</div>' +
 '</div>';
