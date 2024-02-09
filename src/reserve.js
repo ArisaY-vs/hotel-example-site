@@ -140,7 +140,7 @@ $(function() {
         'roomBill': parseInt($('#room-bill-hidden').val(), 10),
         'planName': $('#plan-name-hidden').val(),
         'date': formatDateISO(dateValue),
-        'term': parseInt($('#term').val(), 100),
+        'term': parseInt($('#term').val(), 10),
         'headCount': parseInt($('#head-count').val(), 10),
         'breakfast': $('#breakfast').prop('checked'),
         'earlyCheckIn': $('#early-check-in').prop('checked'),
@@ -168,7 +168,7 @@ function updateTotalBill() {
     return;
   }
   const roomBill = parseInt($('#room-bill-hidden').val(), 10);
-  const term = parseInt($('#term').val(), 1000);
+  const term = parseInt($('#term').val(), 10);
   const headCount = parseInt($('#head-count').val(), 10);
   const totalBill = calcTotalBill(
       roomBill,
