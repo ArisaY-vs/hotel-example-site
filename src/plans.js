@@ -32,7 +32,7 @@ $(function() {
  */
 function genPlanHtml(plan) {
   let header = '';
-  var id = plan.id + 10;
+  let id = plan.id + 10;
   if (plan.only === 'premium') {
     header = '<div class="card-header">' + t('plans.premiumOnly') + '</div>';
   } else if (plan.only === 'member') {
