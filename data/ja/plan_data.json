@@ -12,7 +12,7 @@
     "only": null
   },
   {
-    "id": 15,
+    "id": 1,
     "name": "プレミアムプラン",
     "roomBill": 10000,
     "minHeadCount": 2,
@@ -24,8 +24,8 @@
     "only": "premium"
   },
   {
-    "id": 25,
-    "name": "ディナーーーーーーー付きプラン",
+    "id": 2,
+    "name": "ディナーー付きプラン",
     "roomBill": 8500,
     "minHeadCount": 1,
     "maxHeadCount": 4,
@@ -36,7 +36,7 @@
     "only": "member"
   },
   {
-    "id": 35,
+    "id": 3,
     "name": "お得なプラン",
     "roomBill": 6000,
     "minHeadCount": 1,
@@ -48,7 +48,7 @@
     "only": "member"
   },
   {
-    "id": 45,
+    "id": 4,
     "name": "素泊まり",
     "roomBill": 5500,
     "minHeadCount": 1,
